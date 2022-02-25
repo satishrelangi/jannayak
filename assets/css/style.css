@@ -1,0 +1,174 @@
+/*admin loogin screen*/
+.loginbody {
+    height: 100vh;
+    background: #222D32;
+    font-family: 'Roboto', sans-serif;
+}
+.login-box {
+    margin-top: 110px;
+    height: auto;
+    background: #1A2226;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.login-key {
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+}
+#adminname,#adminpassword {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5 !important;
+}
+#adminname:focus ,#adminpassword:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+#adminLogin {
+    border-color: #0DB8DE;
+    color: #0DB8DE;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+#adminLogin:hover {
+    background-color: #0DB8DE;
+    color: white;
+}
+.field_error{
+    color: red;
+    font-weight: 500;
+}
+
+/*toppage*/
+.bg-custom{
+    background-color: #112233;
+}
+.toprow{
+    min-height: 100vh;
+}
+
+.logo-container h3{
+    line-height: 0.8;
+}
+#logoanc{
+    text-decoration: none;
+}
+#triv{
+    font-size: 115%;
+    color:red;
+}
+#colls{
+    font-size: 60%;
+    color: darkblue;
+}
+.catList{
+    font-size: 17px;
+    border: none;
+    text-transform: uppercase;
+}
+.catList:hover {
+    background-color: orange;
+}
+
+.catList:hover td a {
+    color: white !important;
+}
+.catList td{
+    border: none;
+    box-shadow: 0 1rem .5rem rgba(100,200,25,.15)!important;
+    padding: 1px 0 1px 25px;
+}
+.catList td a{
+    text-decoration: none;
+    color: #042c4f;
+    border: none;
+    font-weight: 500;
+}
+#facultybutton{
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: teal;
+}
+.admin-div{
+    height: 55px;
+}
+.admin-div a{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.dropdown-menu{
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+.table thead th,.table td{
+    border:none;
+    overflow-wrap: anywhere;
+    font-size: small;
+    vertical-align: initial;
+}
+.table td{
+    color: #001248;
+    font-weight: 500;
+}
+.table thead th{
+    text-transform: uppercase;
+    /*vertical-align: middle;*/
+    font-size: small;
+}
+.tr{
+    background-color: #01987a;
+    color: white;
+}
+.rounded{
+    border-radius: 0.7rem !important;
+}
+.right-bottom table tbody tr:lastchild {
+    height: auto;
+    background-color: red;
+    align-self: center;
+}
+
+input{
+    /*border: 2px solid grey !important;*/
+    color: black !important;
+    font-weight: 500 !important;
+}
+label{
+    font-weight: bold;
+    color: #ff0000;
+    text-transform: uppercase;
+    /*text-align: right;*/
+}
+input[type="file"]{
+    width: 100px !important;
+    /*display: none;*/
+    
+}
+
